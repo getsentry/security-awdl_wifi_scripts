@@ -14,6 +14,8 @@ chmod u+x /tmp/disable_awdl.sh
 
 sudo bash /tmp/disable_awdl.sh > /dev/null &
 
+echo "Script installed"
+
 echo -e "${RED}Please leave this terminal open. The script will run in the background${ENDCOLOR}"
 echo "Run the following command to kill the script once you don't need it anymore:"
 echo -e "${BLUE}sudo pkill -f /tmp/disable_awdl.sh; sudo rm /tmp/disable_awdl.sh${ENDCOLOR}"

@@ -10,4 +10,4 @@ chmod u+x /tmp/disable_awdl.sh
 sudo bash /tmp/disable_awdl.sh > /dev/null &
 
 echo "Run the following command to kill the script once you don't need it anymore:"
-echo "> sudo pkill -f /tmp/disable_awdl.sh; sudo rm /tmp/disable_awdl.sh"
+echo "sudo pkill -f /tmp/disable_awdl.sh; sudo rm /tmp/disable_awdl.sh"
